@@ -55,13 +55,14 @@ This model enables efficient traversal and analytics on transportation data.
 ---
 
 ## Project Structure
+```bash
 graph-data-processing-neo4j-docker/
 ├── Dockerfile          # Builds Neo4j + GDS environment
 ├── data_loader.py      # Loads NYC Taxi data into Neo4j
 ├── interface.py        # Implements PageRank and BFS
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
