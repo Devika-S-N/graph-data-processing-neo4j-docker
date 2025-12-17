@@ -1,0 +1,39 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# ----------------------
+# Large input data (NYC Taxi etc.)
+# ----------------------
+*.csv
+*.parquet
+*.zip
+*.gz
+
+# ----------------------
+# Neo4j runtime data (generated inside container)
+# ----------------------
+data/
+logs/
+import/
+plugins/
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# OS / IDE
+# ----------------------
+.DS_Store
+.vscode/
+.idea/
+
+# ----------------------
+# Env / secrets
+# ----------------------
+.env
